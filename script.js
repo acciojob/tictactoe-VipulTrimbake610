@@ -9,4 +9,10 @@ btnStart.addEventListener("click",function(e){
 	const player2 = document.getElementById("p2");
 	p1 = player1.value;
 	p2 = player2.value;
+	this.parentElement.remove();
 });
+const item1 = document.getElementById("item1");
+item1.addEventListener("click",function(){
+	item1.innerText = "x";
+})
+

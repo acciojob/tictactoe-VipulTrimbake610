@@ -5,6 +5,7 @@
 	align-items:center;
 }
 form{
+	display:none !important;
 	display:flex;
 	width:250px;
 	flex-direction:column;
@@ -24,4 +25,21 @@ input{
 	height:35px;
 	background-color:white;
 	border-radius:8px;
+}
+
+.box{
+	display:grid;
+	grid-template-columns:repeat(3, 150px);
+	
+	
+}
+.item{
+	background-color:lightpink;
+	height:110px;
+/* 	width:150px; */
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:100px;
 }
